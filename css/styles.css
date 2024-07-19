@@ -577,6 +577,12 @@ overflow: hidden;
                  }
 
 .subscribe-button{
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
         padding: 8px 24px;
         fill: #fff;
         display: flex;
@@ -676,6 +682,7 @@ overflow: hidden;
                     text-align: center;
                     letter-spacing: 0.02em;
                     margin-bottom: 16px;
+                    color: #2E2F42;
                 }
 
                 .modal-field{
@@ -724,6 +731,7 @@ overflow: hidden;
                     transform: translateY(-50%);
                     fill: #2e2f42;
                     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                    fill: #4D5AE5;
 
                 }
 
@@ -777,9 +785,9 @@ overflow: hidden;
                     margin-right: 8px;
                     fill: transparent; 
                     transition:
-                     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                     border: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                     fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                                         }
 
                     .input-accept:checked + .label-accept .label-accept-span{
@@ -809,6 +817,7 @@ overflow: hidden;
                             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                             display: block;
                             cursor: pointer;
+                            padding: 0;
                     }
 
                     .btn:hover {
