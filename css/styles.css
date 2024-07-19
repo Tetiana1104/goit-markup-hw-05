@@ -656,6 +656,7 @@ overflow: hidden;
             justify-content: center;
             align-items: center;
             cursor: pointer;
+            padding: 0;
          }
 
                  .modal-close-btn:hover,
@@ -817,7 +818,6 @@ overflow: hidden;
                             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                             display: block;
                             cursor: pointer;
-                            padding: 0;
                     }
 
                     .btn:hover {
@@ -833,7 +833,7 @@ overflow: hidden;
                      }
 
                     .accept-box{
-                        margin-bottom: 24px;
+                        margin-bottom: 16px;
                     }
 
                    /*  modal */
