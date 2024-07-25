@@ -531,8 +531,7 @@ overflow: hidden;
  }
      
 .subscribe{
-        width: 100%;
-        margin-left: 80px;
+        margin-left: auto;
      }
 
 .subscribe-title{
@@ -593,11 +592,14 @@ overflow: hidden;
         height: 40px;
         background-color: #4d5ae5;
         color: #fff;
+        transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        
     }
 
         .subscribe-button:hover,
         .footer-social-link:focus {
             background-color: #31d0aa;
+            
         }
 
      /* footer */
@@ -742,14 +744,14 @@ overflow: hidden;
                     transform: translateY(-50%);
                     fill: #2e2f42;
                     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                    fill: #4D5AE5;
                 }
                  
 
-                .modal-input:hover + .input-icon
+                .modal-input:hover + .input-icon,
                 .modal-input:focus + .input-icon{
                     fill: #4d5ae5;
                 }
+                
 
                 .user-comment{
                     width: 100%;
@@ -765,7 +767,6 @@ overflow: hidden;
                     outline: transparent;
                     background-color: transparent;
                     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                    margin-bottom: 16px;
                 }
 
                 .user-comment::placeholder{
@@ -848,6 +849,11 @@ overflow: hidden;
 
                     .accept-box{
                         margin-bottom: 24px;
+                    }
+                    
+                    .visually-hidden{
+                        font-family: inherit;
+ 
                     }
 
                    /*  modal */
